@@ -103,7 +103,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     
-  }
+}
 
 
 
@@ -141,23 +141,39 @@ div.gallery {
     
     
     
-  }
+}
   
-  div.gallery:hover {
+div.gallery:hover {
     border: 1px solid #777;
-  }
+}
   
-  div.gallery img {
+div.gallery img {
     width: 100%;
     height: 100%;
-  }
+}
   
   
-  div.desc {
+div.desc {
     padding: 15px;
     text-align: center;
+   
     background-color:  #4aaaa5;
     color: #ffffff;
+    font-size: 20px;
     
     
-  }
+}
+
+.innerbox1 {
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+    height: 880px;
+    border-top: 25px solid #dddddd;
+    border-bottom: 25px solid #dddddd;
+    width: 940px;
+    padding: 0px 10px;
+    overflow: auto;
+    
+}
+
